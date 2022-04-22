@@ -39,7 +39,6 @@ Perform the following tasks to prepare your environment for the labs.
 
     cd c:\dp-203
 
-    git clone https://github.com/microsoftlearning/dp-203-data-engineer.git data-engineering-ilt-deployment
     ```
 
 3. In Windows PowerShell, run the following command set the execution policy so you can run a local PowerShell script file:
@@ -75,6 +74,7 @@ Perform the following tasks to prepare your environment for the labs.
 4. In Windows PowerShell, use the following command to change directories to the folder containing the automation scripts.
 
     ```
+    git clone https://github.com/microsoftlearning/dp-203-data-engineer.git data-engineering-ilt-deployment
     cd C:\dp-203\data-engineering-ilt-deployment\Allfiles\00\artifacts\environment-setup\automation\
     ```
     
