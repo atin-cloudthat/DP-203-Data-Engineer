@@ -54,15 +54,19 @@ Perform the following tasks to prepare your environment for the labs.
     ```
 
     ```
-    choco install azure-cli
+    choco install azure-cli -y
     ```
     
     ```
-    choco install git
+    choco install git -y
     ```
     
     ```
-    Install-Module Az
+    Install-Module Az -Confirm:$True
+    ```
+    
+    ```
+    Install-Module sqlserver -Confirm:$True
     ```
     
     ```
@@ -74,6 +78,7 @@ Perform the following tasks to prepare your environment for the labs.
 4. In Windows PowerShell, use the following command to change directories to the folder containing the automation scripts.
 
     ```
+    cd C:\dp-203\
     git clone https://github.com/microsoftlearning/dp-203-data-engineer.git data-engineering-ilt-deployment
     cd C:\dp-203\data-engineering-ilt-deployment\Allfiles\00\artifacts\environment-setup\automation\
     ```
