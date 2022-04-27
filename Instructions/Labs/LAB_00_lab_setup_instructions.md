@@ -56,12 +56,14 @@ Perform the following tasks to prepare your environment for the labs.
     ```
     choco install azure-cli -y
     ```
-    - https://aka.ms/installazurecliwindows
+    - Or Download from: https://aka.ms/installazurecliwindows
     
     ```
     choco install git -y
     ```
-    - https://github.com/git-for-windows/git/releases/download/v2.36.0.windows.1/Git-2.36.0-64-bit.exe
+    - Or Download from: https://github.com/git-for-windows/git/releases/download/v2.36.0.windows.1/Git-2.36.0-64-bit.exe
+
+    - Now restart your Virtual Machine
 
 
     ```
